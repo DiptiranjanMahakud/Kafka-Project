@@ -7,7 +7,7 @@ import avroSchema from '../eventType.js';
 // Creating a new instance of Kafka with configuration options
 const kafka = new Kafka({
   clientId: 'my-consumer', // Client ID used to identify the consumer
-  brokers: ['localhost:9092'] // Kafka broker address
+  brokers: ['15.206.153.221:9092'] // Kafka broker address
 });
 
 // Creating a new consumer instance with the specified consumer group ID
