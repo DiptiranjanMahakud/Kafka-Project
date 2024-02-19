@@ -3,7 +3,7 @@ import avroSchema from '../eventType.js';
 
 const kafka = new Kafka({
   clientId: 'my-producer',
-  brokers: ['15.206.153.221:9092']
+  brokers: ['43.205.115.222:9092']
 });
 
 const producer = kafka.producer();
